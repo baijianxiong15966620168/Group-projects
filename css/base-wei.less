@@ -1,0 +1,47 @@
+@f_size:14px;
+@f_color:#000000;
+@f_family:"微软雅黑";
+
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dt,dd{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-size:@f_size;
+    color:@f_color;
+    font-family: @f_family;
+}
+
+a{
+    text-decoration: none;
+    color:@f_color;
+}
+
+input,button,img{
+    padding:0;
+    border:0;
+    outline-style: none;
+    vertical-align: middle;
+}
+
+.clearfix:after{
+    content:"";
+    display:block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+}
+.clearfix{
+    zoom: 1;
+}
+
+.w{
+    width:978px ;
+    margin:0 auto ;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}

@@ -1,0 +1,970 @@
+.main-banner {
+  width: 100%;
+  background: url(../img/白建雄/img/banner.jpg) no-repeat;
+  background-size: cover;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+.main-banner .text {
+  font-size: 56px;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(223, 98, 98, 0.486);
+  text-align: center;
+  margin-top: 162px;
+  font-weight: 700;
+}
+.main-banner .banner-search {
+  width: 760px;
+  height: 60px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 40px;
+  position: absolute;
+  bottom: 180px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.main-banner .banner-search form {
+  width: 100%;
+}
+.main-banner .banner-search form input {
+  width: 620px;
+  height: 60px;
+  padding: 5px 10px 5px 30px;
+  box-sizing: border-box;
+}
+.main-banner .banner-search form a {
+  display: block;
+  width: 140px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #28b76c;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+.main-banner .banner-search form a .icon-search {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 20px;
+}
+.streamer {
+  margin: 70px auto;
+  position: relative;
+}
+.streamer p {
+  width: 42px;
+  height: 15px;
+  background: url(../img/白建雄/img/ad_icon_3x.png) no-repeat;
+  background-size: 42px 15px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.hot-city .title {
+  width: 100%;
+  color: #070000;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.hot-city .slip-lis {
+  width: 100%;
+  margin-bottom: 40px;
+  position: relative;
+}
+.hot-city .slip-lis ul {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.hot-city .slip-lis ul li {
+  padding-right: 50px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #9292ad;
+  border-bottom: 1px solid #ccc;
+  float: left;
+}
+.hot-city .slip-lis ul li:nth-child(6) {
+  padding-right: 0;
+}
+.hot-city .slip-lis p {
+  width: 30px;
+  height: 2px;
+  background-color: #28b76c;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 5px;
+}
+.hot-city .city-toggle {
+  width: 100%;
+}
+.hot-city .city-toggle ul {
+  width: 100%;
+  display: none;
+}
+.hot-city .city-toggle ul li {
+  width: 31%;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  float: left;
+}
+.hot-city .city-toggle ul li dl {
+  width: 100%;
+}
+.hot-city .city-toggle ul li dl dt {
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.hot-city .city-toggle ul li dl dd {
+  padding-right: 12px;
+  float: left;
+  line-height: 26px;
+}
+.hot-city .city-toggle ul li dl dd a {
+  line-height: 26px;
+  color: #070000;
+}
+.hot-city .city-toggle ul li dl dd a:hover {
+  color: #28b76c;
+}
+.hot-city .city-toggle ul:nth-child(1) {
+  display: block;
+}
+.hot-city .look-all-city {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.hot-city .look-all-city a {
+  display: inline-block;
+  height: 48px;
+  padding: 0 50px;
+  font-size: 18px;
+  color: #28b76c;
+  border: 1px solid #28b76c;
+  line-height: 48px;
+  border-radius: 5px;
+}
+.hot-city .look-all-city a:hover {
+  background-color: #28b76c;
+  color: #fff;
+  box-shadow: 0 0 5px #28b76c;
+}
+.destination {
+  margin-top: 70px;
+}
+.destination .title {
+  width: 100%;
+  color: #070000;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.destination .slip-lis {
+  width: 100%;
+  margin-bottom: 40px;
+  position: relative;
+}
+.destination .slip-lis ul {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.destination .slip-lis ul li {
+  padding-right: 50px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #9292ad;
+  border-bottom: 1px solid #ccc;
+  float: left;
+}
+.destination .slip-lis ul li:nth-child(6) {
+  padding-right: 0;
+}
+.destination .slip-lis p {
+  position: absolute;
+  bottom: 0px;
+  background-color: #28b76c;
+  height: 2px;
+}
+.destination .destination-main {
+  width: 100%;
+  height: 400px;
+}
+.destination .destination-main .photo {
+  width: 100%;
+  height: 400px;
+}
+.destination .destination-main .photo .photo-left {
+  width: 236px;
+  height: 100%;
+  background: url(../img/白建雄/img/俯瞰城市/1.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.destination .destination-main .photo .photo-left .content {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px 15px;
+  position: absolute;
+  top: 340px;
+  transition: all 0.5s linear;
+}
+.destination .destination-main .photo .photo-left .content h4 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.destination .destination-main .photo .photo-left .content .line {
+  width: 100%;
+  height: 1px;
+  background-color: #FFF;
+  margin-bottom: 10px;
+}
+.destination .destination-main .photo .photo-left .content .txt {
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.destination .destination-main .photo .photo-left:hover .content {
+  top: 0px;
+  background-color: rgba(37, 32, 32, 0.5);
+  cursor: pointer;
+}
+.destination .destination-main .photo .photo-right {
+  width: 729px;
+  height: 100%;
+}
+.destination .destination-main .photo .photo-right ul {
+  width: 100%;
+  height: 100%;
+}
+.destination .destination-main .photo .photo-right ul li {
+  width: 32%;
+  height: 48%;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.destination .destination-main .photo .photo-right ul li .photo-right-content {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px 15px;
+  position: absolute;
+  top: 132px;
+  z-index: 10;
+  transition: all 0.5s linear;
+}
+.destination .destination-main .photo .photo-right ul li .photo-right-content h4 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.destination .destination-main .photo .photo-right ul li .photo-right-content .line {
+  width: 100%;
+  height: 1px;
+  background-color: #FFF;
+  margin-bottom: 10px;
+}
+.destination .destination-main .photo .photo-right ul li .photo-right-content .txt {
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.destination .destination-main .photo .photo-right ul li:nth-child(1) {
+  background: url(../img/白建雄/img/俯瞰城市/2.png) no-repeat;
+  background-size: cover;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+.destination .destination-main .photo .photo-right ul li:nth-child(1):hover .photo-right-content {
+  top: 0;
+  background-color: rgba(37, 32, 32, 0.5);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.destination .destination-main .photo .photo-right ul li:nth-child(2) {
+  background: url(../img/白建雄/img/俯瞰城市/3.jpg) no-repeat;
+  background-size: cover;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+.destination .destination-main .photo .photo-right ul li:nth-child(2):hover .photo-right-content {
+  top: 0;
+  background-color: rgba(37, 32, 32, 0.5);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.destination .destination-main .photo .photo-right ul li:nth-child(3) {
+  background: url(../img/白建雄/img/俯瞰城市/4.png) no-repeat;
+  background-size: cover;
+  margin-bottom: 2%;
+}
+.destination .destination-main .photo .photo-right ul li:nth-child(3):hover .photo-right-content {
+  top: 0;
+  background-color: rgba(37, 32, 32, 0.5);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.destination .destination-main .photo .photo-right ul li:nth-child(4) {
+  background: url(../img/白建雄/img/俯瞰城市/5.jpg) no-repeat;
+  background-size: cover;
+  margin-right: 2%;
+}
+.destination .destination-main .photo .photo-right ul li:nth-child(4):hover .photo-right-content {
+  top: 0;
+  background-color: rgba(37, 32, 32, 0.5);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.destination .destination-main .photo .photo-right ul li:nth-child(5) {
+  background: url(../img/白建雄/img/俯瞰城市/6.png) no-repeat;
+  background-size: cover;
+  margin-right: 2%;
+}
+.destination .destination-main .photo .photo-right ul li:nth-child(5):hover .photo-right-content {
+  top: 0;
+  background-color: rgba(37, 32, 32, 0.5);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.destination .destination-main .photo .photo-right ul li:nth-child(6) {
+  background: url(../img/白建雄/img/俯瞰城市/7.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo .photo-right ul li:nth-child(6):hover .photo-right-content {
+  top: 0;
+  background-color: rgba(37, 32, 32, 0.5);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.destination .destination-main .photo:nth-child(2) {
+  display: none;
+}
+.destination .destination-main .photo:nth-child(2) .photo-left {
+  background: url(../img/白建雄/img/怀旧时光/1.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(2) .photo-right ul li:nth-child(1) {
+  background: url(../img/白建雄/img/怀旧时光/2.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(2) .photo-right ul li:nth-child(2) {
+  background: url(../img/白建雄/img/怀旧时光/3.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(2) .photo-right ul li:nth-child(3) {
+  background: url(../img/白建雄/img/怀旧时光/4.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(2) .photo-right ul li:nth-child(4) {
+  background: url(../img/白建雄/img/怀旧时光/5.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(2) .photo-right ul li:nth-child(5) {
+  background: url(../img/白建雄/img/怀旧时光/6.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(2) .photo-right ul li:nth-child(6) {
+  background: url(../img/白建雄/img/怀旧时光/7.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(3) {
+  display: none;
+}
+.destination .destination-main .photo:nth-child(3) .photo-left {
+  background: url(../img/白建雄/img/美丽夜色/1.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(3) .photo-right ul li:nth-child(1) {
+  background: url(../img/白建雄/img/美丽夜色/2.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(3) .photo-right ul li:nth-child(2) {
+  background: url(../img/白建雄/img/美丽夜色/3.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(3) .photo-right ul li:nth-child(3) {
+  background: url(../img/白建雄/img/美丽夜色/4.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(3) .photo-right ul li:nth-child(4) {
+  background: url(../img/白建雄/img/美丽夜色/5.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(3) .photo-right ul li:nth-child(5) {
+  background: url(../img/白建雄/img/美丽夜色/6.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(3) .photo-right ul li:nth-child(6) {
+  background: url(../img/白建雄/img/美丽夜色/7.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(4) {
+  display: none;
+}
+.destination .destination-main .photo:nth-child(4) .photo-left {
+  background: url(../img/白建雄/img/神秘遗址/1.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(4) .photo-right ul li:nth-child(1) {
+  background: url(../img/白建雄/img/神秘遗址/2.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(4) .photo-right ul li:nth-child(2) {
+  background: url(../img/白建雄/img/神秘遗址/3.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(4) .photo-right ul li:nth-child(3) {
+  background: url(../img/白建雄/img/神秘遗址/4.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(4) .photo-right ul li:nth-child(4) {
+  background: url(../img/白建雄/img/神秘遗址/5.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(4) .photo-right ul li:nth-child(5) {
+  background: url(../img/白建雄/img/神秘遗址/6.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(4) .photo-right ul li:nth-child(6) {
+  background: url(../img/白建雄/img/神秘遗址/7.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(5) {
+  display: none;
+}
+.destination .destination-main .photo:nth-child(5) .photo-left {
+  background: url(../img/白建雄/img/跳蚤市场/1.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(5) .photo-right ul li:nth-child(1) {
+  background: url(../img/白建雄/img/跳蚤市场/2.png) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(5) .photo-right ul li:nth-child(2) {
+  background: url(../img/白建雄/img/跳蚤市场/3.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(5) .photo-right ul li:nth-child(3) {
+  background: url(../img/白建雄/img/跳蚤市场/4.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(5) .photo-right ul li:nth-child(4) {
+  background: url(../img/白建雄/img/跳蚤市场/5.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(5) .photo-right ul li:nth-child(5) {
+  background: url(../img/白建雄/img/跳蚤市场/6.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(5) .photo-right ul li:nth-child(6) {
+  background: url(../img/白建雄/img/跳蚤市场/7.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(6) {
+  display: none;
+}
+.destination .destination-main .photo:nth-child(6) .photo-left {
+  background: url(../img/白建雄/img/美丽小镇/1.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(6) .photo-right ul li:nth-child(1) {
+  background: url(../img/白建雄/img/美丽小镇/2.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(6) .photo-right ul li:nth-child(2) {
+  background: url(../img/白建雄/img/美丽小镇/3.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(6) .photo-right ul li:nth-child(3) {
+  background: url(../img/白建雄/img/美丽小镇/4.png) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(6) .photo-right ul li:nth-child(4) {
+  background: url(../img/白建雄/img/美丽小镇/5.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(6) .photo-right ul li:nth-child(5) {
+  background: url(../img/白建雄/img/美丽小镇/6.jpg) no-repeat;
+  background-size: cover;
+}
+.destination .destination-main .photo:nth-child(6) .photo-right ul li:nth-child(6) {
+  background: url(../img/白建雄/img//美丽小镇/7.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend {
+  margin-top: 70px;
+}
+.month-recommend .title {
+  width: 100%;
+  color: #070000;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.month-recommend .month-list {
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+}
+.month-recommend .month-list ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.month-recommend .month-list ul li {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #989292;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  margin: 0 10px;
+}
+.month-recommend .month-photo {
+  width: 100%;
+  height: 300px;
+}
+.month-recommend .month-photo ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.month-recommend .month-photo ul li {
+  width: 190px;
+  height: 100%;
+  float: left;
+  background: url(../img/白建雄/img/1月/1.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.month-recommend .month-photo ul li .photo-description {
+  width: 100%;
+  height: 100%;
+  padding: 20px 15px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 240px;
+  transition: all 0.3s linear;
+}
+.month-recommend .month-photo ul li .photo-description h5 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.month-recommend .month-photo ul li .photo-description p {
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.month-recommend .month-photo ul li:hover .photo-description {
+  cursor: pointer;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.month-recommend .month-photo ul li:nth-child(2) {
+  background: url(../img/白建雄/img/1月/2.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul li:nth-child(3) {
+  background: url(../img/白建雄/img/1月/3.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul li:nth-child(4) {
+  background: url(../img/白建雄/img/1月/4.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul li:nth-child(5) {
+  background: url(../img/白建雄/img/1月/5.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(2) {
+  display: none;
+}
+.month-recommend .month-photo ul:nth-child(2) li:nth-child(1) {
+  background: url(../img/白建雄/img/2月/1.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(2) li:nth-child(2) {
+  background: url(../img/白建雄/img/2月/2.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(2) li:nth-child(3) {
+  background: url(../img/白建雄/img/2月/3.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(2) li:nth-child(4) {
+  background: url(../img/白建雄/img/2月/4.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(2) li:nth-child(5) {
+  background: url(../img/白建雄/img/2月/5.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(3) {
+  display: none;
+}
+.month-recommend .month-photo ul:nth-child(3) li:nth-child(1) {
+  background: url(../img/白建雄/img/3月/1.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(3) li:nth-child(2) {
+  background: url(../img/白建雄/img/3月/2.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(3) li:nth-child(3) {
+  background: url(../img/白建雄/img/3月/3.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(3) li:nth-child(4) {
+  background: url(../img/白建雄/img/3月/4.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(3) li:nth-child(5) {
+  background: url(../img/白建雄/img/3月/5.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(4) {
+  display: none;
+}
+.month-recommend .month-photo ul:nth-child(4) li:nth-child(1) {
+  background: url(../img/白建雄/img/4月/1.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(4) li:nth-child(2) {
+  background: url(../img/白建雄/img/4月/2.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(4) li:nth-child(3) {
+  background: url(../img/白建雄/img/4月/3.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(4) li:nth-child(4) {
+  background: url(../img/白建雄/img/4月/4.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(4) li:nth-child(5) {
+  background: url(../img/白建雄/img/4月/5.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(5) {
+  display: none;
+}
+.month-recommend .month-photo ul:nth-child(5) li:nth-child(1) {
+  background: url(../img/白建雄/img/5月/1.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(5) li:nth-child(2) {
+  background: url(../img/白建雄/img/5月/2.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(5) li:nth-child(3) {
+  background: url(../img/白建雄/img/5月/3.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(5) li:nth-child(4) {
+  background: url(../img/白建雄/img/5月/4.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(5) li:nth-child(5) {
+  background: url(../img/白建雄/img/5月/5.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(6) {
+  display: none;
+}
+.month-recommend .month-photo ul:nth-child(6) li:nth-child(1) {
+  background: url(../img/白建雄/img/6月/1.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(6) li:nth-child(2) {
+  background: url(../img/白建雄/img/6月/2.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(6) li:nth-child(3) {
+  background: url(../img/白建雄/img/6月/3.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(6) li:nth-child(4) {
+  background: url(../img/白建雄/img/6月/4.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(6) li:nth-child(5) {
+  background: url(../img/白建雄/img/6月/5.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(7) {
+  display: none;
+}
+.month-recommend .month-photo ul:nth-child(7) li:nth-child(1) {
+  background: url(../img/白建雄/img/7月/1.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(7) li:nth-child(2) {
+  background: url(../img/白建雄/img/7月/2.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(7) li:nth-child(3) {
+  background: url(../img/白建雄/img/7月/3.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(7) li:nth-child(4) {
+  background: url(../img/白建雄/img/7月/4.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(7) li:nth-child(5) {
+  background: url(../img/白建雄/img/7月/5.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(8) {
+  display: none;
+}
+.month-recommend .month-photo ul:nth-child(8) li:nth-child(1) {
+  background: url(../img/白建雄/img/8月/1.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(8) li:nth-child(2) {
+  background: url(../img/白建雄/img/8月/2.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(8) li:nth-child(3) {
+  background: url(../img/白建雄/img/8月/3.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(8) li:nth-child(4) {
+  background: url(../img/白建雄/img/8月/4.png) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(8) li:nth-child(5) {
+  background: url(../img/白建雄/img/8月/5jpg.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(9) {
+  display: none;
+}
+.month-recommend .month-photo ul:nth-child(9) li:nth-child(1) {
+  background: url(../img/白建雄/img/9月/1.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(9) li:nth-child(2) {
+  background: url(../img/白建雄/img/9月/2.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(9) li:nth-child(3) {
+  background: url(../img/白建雄/img/9月/3jpg.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(9) li:nth-child(4) {
+  background: url(../img/白建雄/img/9月/4.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(9) li:nth-child(5) {
+  background: url(../img/白建雄/img/9月/5.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(10) {
+  display: none;
+}
+.month-recommend .month-photo ul:nth-child(10) li:nth-child(1) {
+  background: url(../img/白建雄/img/10月/1.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(10) li:nth-child(2) {
+  background: url(../img/白建雄/img/10月/2.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(10) li:nth-child(3) {
+  background: url(../img/白建雄/img/10月/3.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(10) li:nth-child(4) {
+  background: url(../img/白建雄/img/10月/4.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(10) li:nth-child(5) {
+  background: url(../img/白建雄/img/10月/5.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(11) {
+  display: none;
+}
+.month-recommend .month-photo ul:nth-child(11) li:nth-child(1) {
+  background: url(../img/白建雄/img/11月/1.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(11) li:nth-child(2) {
+  background: url(../img/白建雄/img/11月/2.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(11) li:nth-child(3) {
+  background: url(../img/白建雄/img/11月/3.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(11) li:nth-child(4) {
+  background: url(../img/白建雄/img/11月/4.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(11) li:nth-child(5) {
+  background: url(../img/白建雄/img/11月/5.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(12) {
+  display: none;
+}
+.month-recommend .month-photo ul:nth-child(12) li:nth-child(1) {
+  background: url(../img/白建雄/img/12月/1.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(12) li:nth-child(2) {
+  background: url(../img/白建雄/img/12月/2.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(12) li:nth-child(3) {
+  background: url(../img/白建雄/img/12月/3jpg.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(12) li:nth-child(4) {
+  background: url(../img/白建雄/img/12月/4.jpg) no-repeat;
+  background-size: cover;
+}
+.month-recommend .month-photo ul:nth-child(12) li:nth-child(5) {
+  background: url(../img/白建雄/img/12月/5.jpg) no-repeat;
+  background-size: cover;
+}
+.city-list {
+  margin-top: 70px;
+}
+.city-list .continent {
+  width: 100%;
+  color: #070000;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.city-list .continent-list {
+  width: 100%;
+  margin-bottom: 40px;
+  position: relative;
+}
+.city-list .continent-list ul {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.city-list .continent-list ul li {
+  padding-right: 50px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #9292ad;
+  border-bottom: 1px solid #ccc;
+  float: left;
+}
+.city-list .continent-list ul li:nth-child(7) {
+  padding-right: 0;
+}
+.city-list .continent-list p {
+  position: absolute;
+  bottom: 0px;
+  height: 2px;
+  background-color: #28b76c;
+}
+.city-list .order {
+  color: #959595;
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 12px;
+}
+.city-list .city-order {
+  width: 100%;
+  min-height: 630px;
+}
+.city-list .city-order ul {
+  width: 100%;
+  display: none;
+}
+.city-list .city-order ul li {
+  padding: 0px 20px;
+  width: 33.3%;
+  box-sizing: border-box;
+  float: left;
+  margin-bottom: 15px;
+  height: 20px;
+  overflow: visible;
+  white-space: nowrap;
+}
+.city-list .city-order ul li a .chinese {
+  color: #070000;
+  margin-right: 5px;
+}
+.city-list .city-order ul li a .english {
+  color: #959595;
+}
+.city-list .city-order ul li a:hover .chinese,
+.city-list .city-order ul li a:hover .english {
+  color: #28b76c;
+}
+.city-list .city-order ul li:nth-child(1) {
+  padding-left: 0;
+}
+.city-list .city-order ul li:nth-child(3n+1) {
+  padding-left: 0;
+}
+.city-list .city-order ul:nth-child(1) {
+  display: block;
+}
+.fixed {
+  position: fixed;
+  right: 40px;
+  bottom: 140px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px #ccc;
+  z-index: 100000;
+  background-color: #fff;
+}
+.fixed li {
+  padding: 7px 5px 5px 5px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  color: #b2b2b2;
+}
+.fixed li i {
+  font-size: 20px;
+  display: block;
+}
+.fixed li p {
+  font-size: 12px;
+  transform: scale(0.8);
+  margin-top: 7px;
+}
+.fixed li:hover {
+  cursor: pointer;
+  background-color: #28b76c;
+  color: #fff;
+}

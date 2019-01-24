@@ -1,0 +1,37 @@
+.foot-last {
+  height: 165px;
+  background: #242424;
+  overflow: hidden;
+}
+.foot-last span:first-child img {
+  margin-top: -5px;
+  width: 84px;
+  height: 36px;
+}
+.foot-last p:nth-child(2) {
+  font-size: 12px;
+  margin-top: 30px;
+}
+.foot-last p:nth-child(3) {
+  font-size: 12px;
+}
+.foot-last span:nth-child(4) {
+  margin-top: -28px;
+}
+.foot-last span:nth-child(4) img {
+  width: 84px;
+  height: 36px;
+}
+.foot-last p:nth-child(5) {
+  margin-top: 15px;
+}
+.foot-last p:nth-child(5) span {
+  font-size: 12px;
+}
+.foot-last p:nth-child(5) a {
+  transition: all 1s;
+}
+.foot-last p:nth-child(5) a:hover {
+  color: silver;
+  transform: scale(1.1);
+}

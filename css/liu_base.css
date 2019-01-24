@@ -1,0 +1,34 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+  font-family: "微软雅黑";
+  font-weight: 400;
+  color: #747474;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+input,
+img {
+  outline-style: none;
+  border-style: 0 none;
+  vertical-align: top;
+}
+.w {
+  width: 960px;
+  margin: 0 auto;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}

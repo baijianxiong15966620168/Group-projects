@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-style: "微软雅黑";
+  font-size: 14px;
+}
+body {
+  background-color: #eeeeee;
+}
+img,
+input {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  outline-style: none;
+  border: 0 none;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+clearfix::after {
+  clear: both;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  display: block;
+  content: "";
+}
+clearfix {
+  zoom: 1;
+}
+.wraper {
+  width: 1160px;
+  margin: 0 auto;
+}
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+}

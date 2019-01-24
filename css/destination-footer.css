@@ -1,0 +1,80 @@
+.footer {
+  background-color: #323232;
+  border-top: 5px solid #25a851;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+.footer .footer-top {
+  position: relative;
+}
+.footer .footer-top i {
+  font-style: normal;
+  display: block;
+  width: 3px;
+  height: 20px;
+  background-color: #25a851;
+  position: absolute;
+  left: -12px;
+}
+.footer .footer-top li {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+  float: left;
+}
+.footer .footer-top li a {
+  color: #FFF;
+}
+.footer .footer-top li a:hover {
+  color: #25a851;
+}
+.footer .footer-top span {
+  display: block;
+  height: 20px;
+  width: 2px;
+  background-color: #616161;
+  float: left;
+  margin: 0px 12px;
+}
+.footer .footer-center p {
+  margin-top: 20px;
+}
+.footer .footer-center p a {
+  color: #636363;
+  font-size: 12px;
+}
+.footer .footer-center p a:hover {
+  color: #25a851;
+}
+.footer .footer-bottom {
+  margin-top: 25px;
+}
+.footer .footer-bottom dl {
+  line-height: 20px;
+}
+.footer .footer-bottom dl dt {
+  font-size: 16px;
+  color: #636363;
+  float: left;
+}
+.footer .footer-bottom dl dd {
+  color: #636363;
+  font-size: 12px;
+  float: left;
+}
+.footer .footer-bottom dl dd a {
+  color: #636363;
+}
+.footer .footer-bottom dl dd a:hover {
+  color: #25a851;
+}
+.footer .footer-bottom dl span {
+  display: block;
+  width: 2px;
+  height: 15px;
+  background-color: #636363;
+  float: left;
+  margin-top: 2.5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

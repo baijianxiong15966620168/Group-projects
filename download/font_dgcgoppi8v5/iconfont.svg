@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="z043" unicode="&#58927;" d="M412.367 889.611l-63.88-62.071 460.007-446.973-460.007-446.975 63.88-62.071 523.885 509.044z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="xiazai6" unicode="&#58886;" d="M324.211517 384.194369 787.889594 822.917417c16.19422 16.630365 16.19422 43.974704 0 60.605068-16.19422 16.630365-42.495607 16.630365-58.613976 0L235.750113 416.639698c-8.647031-8.969398-12.344775-20.934917-11.719003-32.445329-0.644735-11.90863 3.071972-23.874149 11.719003-32.824585l493.506542-466.882788c16.118369-16.649327 42.438718-16.649327 58.613976 0 16.19422 17.085471 16.19422 43.974704 0 60.605068L324.211517 384.194369"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

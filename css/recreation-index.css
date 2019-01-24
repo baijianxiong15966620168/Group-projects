@@ -1,0 +1,1219 @@
+header .topNav {
+  width: 100%;
+  min-width: 1160px;
+  height: 30px;
+  background-color: #323232;
+}
+header .topNav .t-logo {
+  height: 60%;
+  margin-top: 5px;
+  margin-left: 25px;
+}
+header .topNav .t-logo a {
+  font-size: 0;
+}
+header .topNav a:hover {
+  cursor: pointer;
+}
+header .topNav .leftList {
+  margin-left: 28px;
+}
+header .topNav .leftList ul li a {
+  color: silver;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 10px;
+  padding: 0 10px;
+  line-height: 30px;
+}
+header .topNav .leftList ul li a i {
+  font-size: 1px;
+}
+header .topNav .leftList ul a:hover {
+  color: #1b8234;
+  cursor: pointer;
+}
+header .topNav .leftList ul .recreationLi .recreation {
+  display: none;
+  position: absolute;
+  z-index: 200;
+  background: #FFF;
+  border-radius: 4px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+header .topNav .leftList ul .recreationLi .recreation .triangle {
+  position: absolute;
+  color: white;
+  left: 21px;
+  top: -13px;
+}
+header .topNav .leftList ul .recreationLi .recreation ul {
+  border-radius: 10px;
+  padding: 5px 0 ;
+  box-sizing: border-box;
+}
+header .topNav .leftList ul .recreationLi .recreation ul li {
+  padding: 1px 10px;
+  box-sizing: border-box;
+}
+header .topNav .leftList ul .recreationLi .recreation ul li a {
+  color: #636363;
+  font-size: 16px;
+  font-weight: 400;
+}
+header .topNav .leftList ul .recreationLi .recreation ul li a i {
+  font-size: 17px;
+}
+header .topNav .leftList ul .recreationLi .recreation ul li:hover {
+  background-color: #e3fae1;
+}
+header .topNav .leftList ul .recreationLi .recreation ul li:nth-child(2) span {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px;
+  background-color: red;
+  color: white;
+  margin-left: 4px;
+}
+header .topNav .leftList ul .shoppingLi {
+  position: relative;
+}
+header .topNav .leftList ul .shoppingLi img {
+  width: 44px;
+  display: block;
+  height: 12px;
+  position: absolute;
+  left: 56px;
+  top: 2px;
+}
+header .topNav .leftList ul .shoppingLi .shopping {
+  width: 140px;
+  display: none;
+  position: absolute;
+  z-index: 200;
+  background: #FFF;
+  border-radius: 4px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+header .topNav .leftList ul .shoppingLi .shopping .triangle {
+  position: absolute;
+  color: white;
+  left: 21px;
+  top: -13px;
+}
+header .topNav .leftList ul .shoppingLi .shopping ul {
+  padding: 5px 0 ;
+  box-sizing: border-box;
+}
+header .topNav .leftList ul .shoppingLi .shopping ul li {
+  padding: 1px 10px;
+  box-sizing: border-box;
+}
+header .topNav .leftList ul .shoppingLi .shopping ul li a {
+  color: #636363;
+  font-size: 16px;
+  font-weight: 400;
+}
+header .topNav .leftList ul .shoppingLi .shopping ul li a i {
+  font-size: 17px;
+}
+header .topNav .leftList ul .shoppingLi .shopping ul li:hover {
+  background-color: #e3fae1;
+}
+header .topNav .leftList ul .hotelLi {
+  margin-left: 50px;
+}
+header .topNav .leftList ul .hotelLi .hetel {
+  width: 140px;
+  display: none;
+  position: absolute;
+  z-index: 200;
+  background: #FFF;
+  border-radius: 4px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+header .topNav .leftList ul .hotelLi .hetel .triangle {
+  position: absolute;
+  color: white;
+  left: 21px;
+  top: -13px;
+}
+header .topNav .leftList ul .hotelLi .hetel ul {
+  padding: 5px 0 ;
+  box-sizing: border-box;
+}
+header .topNav .leftList ul .hotelLi .hetel ul li {
+  padding: 1px 10px;
+  box-sizing: border-box;
+}
+header .topNav .leftList ul .hotelLi .hetel ul li a {
+  color: #636363;
+  font-size: 16px;
+  font-weight: 400;
+}
+header .topNav .leftList ul .hotelLi .hetel ul li a i {
+  font-size: 17px;
+}
+header .topNav .leftList ul .hotelLi .hetel ul li:hover {
+  background-color: #e3fae1;
+}
+header .topNav .leftList ul .myselfLi .myself {
+  width: 140px;
+  display: none;
+  position: absolute;
+  z-index: 200;
+  background: #FFF;
+  border-radius: 4px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+header .topNav .leftList ul .myselfLi .myself .triangle {
+  position: absolute;
+  color: white;
+  left: 21px;
+  top: -13px;
+}
+header .topNav .leftList ul .myselfLi .myself ul {
+  padding: 5px 0 ;
+  box-sizing: border-box;
+}
+header .topNav .leftList ul .myselfLi .myself ul li {
+  padding: 1px 10px;
+  box-sizing: border-box;
+}
+header .topNav .leftList ul .myselfLi .myself ul li a {
+  color: #636363;
+  font-size: 16px;
+  font-weight: 400;
+}
+header .topNav .leftList ul .myselfLi .myself ul li a i {
+  font-size: 17px;
+}
+header .topNav .leftList ul .myselfLi .myself ul li:hover {
+  background-color: #e3fae1;
+}
+header .topNav .leftList ul .appLi .app {
+  width: 160px;
+  height: 105px;
+  display: none;
+  position: absolute;
+  z-index: 200;
+  background: #FFF;
+  border-radius: 4px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+header .topNav .leftList ul .appLi .app .triangle {
+  position: absolute;
+  color: white;
+  left: 21px;
+  top: -13px;
+}
+header .topNav .leftList ul .appLi .app ul {
+  padding: 5px 0 ;
+  box-sizing: border-box;
+}
+header .topNav .leftList ul .appLi .app ul li {
+  padding: 1px 10px;
+  box-sizing: border-box;
+}
+header .topNav .leftList ul .appLi .app ul li a {
+  color: #636363;
+  font-size: 16px;
+  font-weight: 400;
+}
+header .topNav .leftList ul .appLi .app ul li a i {
+  font-size: 17px;
+}
+header .topNav .leftList ul .appLi .app ul li:hover {
+  background-color: #e3fae1;
+}
+header .topNav .rightList {
+  margin-right: 40px;
+}
+header .topNav .rightList .searchDiv {
+  position: relative;
+}
+header .topNav .rightList .searchDiv input {
+  width: 0;
+  height: 20px;
+  position: relative;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+header .topNav .rightList .searchDiv a {
+  display: block;
+  position: absolute;
+  float: left;
+  right: 2px;
+  top: 2px;
+}
+header .topNav .rightList .searchDiv a i:hover {
+  color: black;
+}
+header .topNav .rightList .searchDiv a i {
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+header .topNav .rightList .leftimg ul li span {
+  color: #c0c0c0;
+  line-height: 30px;
+  margin-left: 12px;
+}
+header .topNav .rightList .leftimg ul li:nth-child(4) {
+  margin-left: 10px;
+}
+header .topNav .rightList .leftimg ul li:nth-child(4) a {
+  color: silver;
+  line-height: 30px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+header .topNav .rightList .leftimg ul li:nth-child(4) a:hover {
+  cursor: pointer;
+  color: #037926;
+}
+header .topNav .rightList .leftimg ul li:nth-child(5) a {
+  color: silver;
+  line-height: 30px;
+  font-size: 14px;
+}
+header .topNav .rightList .leftimg ul li:nth-child(5) a:hover {
+  cursor: pointer;
+  color: #037926;
+}
+.mContent {
+  height: 100px;
+  padding-top: 30px;
+  background: #ecf5f9;
+  box-sizing: border-box;
+}
+.mContent .topWord {
+  height: 75px;
+}
+.mContent .topWord .leftWord span {
+  font-size: 20px;
+  color: #1b8234;
+  margin: 0 4px;
+}
+.mContent .topWord .leftWord .span1 {
+  font-size: 34px;
+  color: #147850;
+}
+.mContent .topWord .rightWord .item1 {
+  width: 124px;
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  border: 1px solid #1b8234;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.mContent .topWord .rightWord .item1 a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #1b8234;
+  font-size: 18px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.mContent .topWord .rightWord .item1 > a:hover {
+  cursor: pointer;
+  background-color: #3f9f5f;
+  color: #f1ffff;
+}
+.mContent .topWord .rightWord .item2 {
+  width: 124px;
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+  border-radius: 5px;
+}
+.mContent .topWord .rightWord .item2 a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #f1ffff;
+  font-size: 18px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  background-color: #1c95dd;
+  border-radius: 5px;
+}
+.mContent .topWord .rightWord .item2 > a:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.mainImg {
+  position: relative;
+  background: white;
+}
+.mainImg .backgroundimg1 {
+  height: 400px;
+  width: 100%;
+  background-image: url(../img/仝敬龙/index.jpg);
+  background-size: cover;
+  position: absolute;
+  display: block;
+}
+.mainImg .backgroundimg1 .contentbox {
+  height: 400px;
+  position: relative;
+}
+.mainImg .backgroundimg1 .contentbox .contentimg {
+  width: 680px;
+  height: 400px;
+}
+.mainImg .backgroundimg1 .contentbox .contentimg .bimg {
+  width: 680px;
+  height: 400px;
+  position: relative;
+}
+.mainImg .backgroundimg1 .contentbox .contentimg .bimg .headphoto {
+  width: 80px;
+  height: 80px;
+  border: 4px solid #cbbfb7;
+  border-radius: 80px;
+  position: absolute;
+  right: -40px;
+  top: 30px;
+  background: url(../img/仝敬龙/200.jpg);
+  background-size: cover;
+}
+.mainImg .backgroundimg1 .contentbox .btnimg {
+  overflow: hidden;
+}
+.mainImg .backgroundimg1 .contentbox .btnimg span {
+  font-size: 10px;
+  color: #e0ffff;
+  position: absolute;
+  top: 84px;
+  right: 154px;
+}
+.mainImg .backgroundimg1 .contentbox .btnimg .introduce {
+  width: 270px;
+  height: 160px;
+  position: absolute;
+  top: 124px;
+  right: -2px;
+}
+.mainImg .backgroundimg1 .contentbox .btnimg .introduce p {
+  color: #e0ffff;
+  font-size: 18px;
+  line-height: 27px;
+}
+.mainImg .backgroundimg2 {
+  height: 400px;
+  width: 100%;
+  background-image: url(../img/仝敬龙/index\(1\).jpg);
+  background-size: cover;
+  position: absolute;
+  display: none;
+}
+.mainImg .backgroundimg2 .contentbox {
+  height: 400px;
+  position: relative;
+}
+.mainImg .backgroundimg2 .contentbox .contentimg {
+  width: 680px;
+  height: 400px;
+}
+.mainImg .backgroundimg2 .contentbox .contentimg .bimg {
+  width: 680px;
+  height: 400px;
+  position: relative;
+}
+.mainImg .backgroundimg2 .contentbox .contentimg .bimg .headphoto {
+  width: 80px;
+  height: 80px;
+  border: 4px solid #cbbfb7;
+  border-radius: 80px;
+  position: absolute;
+  right: -40px;
+  top: 30px;
+  background: url(../img/仝敬龙/200\(1\).jpg);
+  background-size: cover;
+}
+.mainImg .backgroundimg2 .contentbox .btnimg {
+  overflow: hidden;
+}
+.mainImg .backgroundimg2 .contentbox .btnimg span {
+  font-size: 10px;
+  color: #e0ffff;
+  position: absolute;
+  top: 84px;
+  right: 185px;
+}
+.mainImg .backgroundimg2 .contentbox .btnimg .introduce {
+  width: 270px;
+  height: 160px;
+  position: absolute;
+  top: 124px;
+  right: -2px;
+}
+.mainImg .backgroundimg2 .contentbox .btnimg .introduce p {
+  color: #e0ffff;
+  font-size: 18px;
+  line-height: 27px;
+}
+.mainImg .backgroundimg3 {
+  height: 400px;
+  width: 100%;
+  background-image: url(../img/仝敬龙/index\(2\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  display: none;
+}
+.mainImg .backgroundimg3 .contentbox {
+  height: 400px;
+  position: relative;
+}
+.mainImg .backgroundimg3 .contentbox .contentimg {
+  width: 680px;
+  height: 400px;
+}
+.mainImg .backgroundimg3 .contentbox .contentimg .bimg {
+  width: 680px;
+  height: 400px;
+  position: relative;
+}
+.mainImg .backgroundimg3 .contentbox .contentimg .bimg .headphoto {
+  width: 80px;
+  height: 80px;
+  border: 4px solid #cbbfb7;
+  border-radius: 80px;
+  position: absolute;
+  right: -40px;
+  top: 30px;
+  background: url(../img/仝敬龙/200\(2\).jpg);
+  background-size: cover;
+}
+.mainImg .backgroundimg3 .contentbox .btnimg {
+  overflow: hidden;
+}
+.mainImg .backgroundimg3 .contentbox .btnimg span {
+  font-size: 10px;
+  color: #e0ffff;
+  position: absolute;
+  top: 84px;
+  right: 176px;
+}
+.mainImg .backgroundimg3 .contentbox .btnimg .introduce {
+  width: 270px;
+  height: 160px;
+  position: absolute;
+  top: 124px;
+  right: -2px;
+}
+.mainImg .backgroundimg3 .contentbox .btnimg .introduce p {
+  color: #e0ffff;
+  font-size: 18px;
+  line-height: 27px;
+}
+.mainImg .backgroundimg4 {
+  height: 400px;
+  width: 100%;
+  background-image: url(../img/仝敬龙/index\(3\).jpg);
+  background-size: cover;
+  position: absolute;
+  display: none;
+}
+.mainImg .backgroundimg4 .contentbox {
+  height: 400px;
+  position: relative;
+}
+.mainImg .backgroundimg4 .contentbox .contentimg {
+  width: 680px;
+  height: 400px;
+}
+.mainImg .backgroundimg4 .contentbox .contentimg .bimg {
+  width: 680px;
+  height: 400px;
+  position: relative;
+}
+.mainImg .backgroundimg4 .contentbox .contentimg .bimg .headphoto {
+  width: 80px;
+  height: 80px;
+  border: 4px solid #cbbfb7;
+  border-radius: 80px;
+  position: absolute;
+  right: -40px;
+  top: 30px;
+  background: url(../img/仝敬龙/200\(3\).jpg);
+  background-size: cover;
+}
+.mainImg .backgroundimg4 .contentbox .btnimg {
+  overflow: hidden;
+}
+.mainImg .backgroundimg4 .contentbox .btnimg span {
+  font-size: 10px;
+  color: #e0ffff;
+  position: absolute;
+  top: 84px;
+  right: 215px;
+}
+.mainImg .backgroundimg4 .contentbox .btnimg .introduce {
+  width: 270px;
+  height: 160px;
+  position: absolute;
+  top: 124px;
+  right: -2px;
+}
+.mainImg .backgroundimg4 .contentbox .btnimg .introduce p {
+  color: #e0ffff;
+  font-size: 18px;
+  line-height: 27px;
+}
+.mainImg .backgroundimg5 {
+  height: 400px;
+  width: 100%;
+  background-image: url(../img/仝敬龙/index\(4\).jpg);
+  background-size: cover;
+  position: absolute;
+  display: none;
+}
+.mainImg .backgroundimg5 .contentbox {
+  height: 400px;
+  position: relative;
+}
+.mainImg .backgroundimg5 .contentbox .contentimg {
+  width: 680px;
+  height: 400px;
+}
+.mainImg .backgroundimg5 .contentbox .contentimg .bimg {
+  width: 680px;
+  height: 400px;
+  position: relative;
+}
+.mainImg .backgroundimg5 .contentbox .contentimg .bimg .headphoto {
+  width: 80px;
+  height: 80px;
+  border: 4px solid #cbbfb7;
+  border-radius: 80px;
+  position: absolute;
+  right: -40px;
+  top: 30px;
+  background: url(../img/仝敬龙/200\(4\).jpg);
+  background-size: cover;
+}
+.mainImg .backgroundimg5 .contentbox .btnimg {
+  overflow: hidden;
+}
+.mainImg .backgroundimg5 .contentbox .btnimg span {
+  font-size: 10px;
+  color: #e0ffff;
+  position: absolute;
+  top: 84px;
+  right: 170px;
+}
+.mainImg .backgroundimg5 .contentbox .btnimg .introduce {
+  width: 270px;
+  height: 160px;
+  position: absolute;
+  top: 124px;
+  right: -2px;
+}
+.mainImg .backgroundimg5 .contentbox .btnimg .introduce p {
+  color: #e0ffff;
+  font-size: 18px;
+  line-height: 27px;
+}
+.mainImg .contury-list {
+  width: 100%;
+  height: 494px;
+  border-top: 1px solid #10b041;
+  border-bottom: 1px solid #10b041;
+  background-color: #f5f5f5;
+  position: absolute;
+  display: none;
+  z-index: 10;
+}
+.mainImg .contury-list .triangleimg {
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  top: -21px;
+  right: 440px;
+}
+.mainImg .contury-list .warper div {
+  margin-top: 37px;
+}
+.mainImg .contury-list .warper dl {
+  float: left;
+}
+.mainImg .contury-list .warper dl dt {
+  font-size: 16px;
+  color: #323232;
+  font-weight: 700;
+  margin-bottom: 23px;
+}
+.mainImg .contury-list .warper dl dd {
+  height: 24px;
+}
+.mainImg .contury-list .warper dl dd:hover {
+  color: #10b041;
+  cursor: pointer;
+}
+.mainImg .contury-list .warper .div1 {
+  width: 97px;
+}
+.mainImg .contury-list .warper .div1 dl:nth-child(1) {
+  margin-bottom: 25px;
+}
+.mainImg .contury-list .warper .div2 {
+  width: 175pxpx;
+  margin-left: 165px;
+}
+.mainImg .contury-list .warper .div3 {
+  width: 80px;
+  margin-left: 105px;
+}
+.mainImg .contury-list .warper .div4 {
+  width: 56px;
+  margin-left: 165px;
+}
+.mainImg .contury-list .warper .div4 dl {
+  margin-bottom: 69px;
+}
+.mainImg .contury-list .warper .div5 {
+  width: 75px;
+}
+.mainImg .contury-list .warper .div5 dl {
+  margin-bottom: 69px;
+}
+.smallimg {
+  position: absolute;
+  top: 390px;
+  right: 230px;
+}
+.smallimg li {
+  margin-right: 6px;
+  position: relative;
+  width: 44px;
+  height: 44px;
+}
+.smallimg li .triangleimg {
+  position: absolute;
+  top: -19px;
+  left: 16px;
+  color: #f1f1e8;
+  display: none;
+}
+.smallimg li a {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.smallimg .simg {
+  width: 44px;
+  height: 44px;
+}
+.tabList {
+  margin-top: 445px;
+  background: white;
+}
+.tabList .warper ul li a {
+  font-size: 23px;
+  color: #a39595;
+  font-family: '宋体';
+  width: 230px;
+  height: 32px;
+  text-align: center;
+  display: block;
+}
+.tabList .warper ul li a:hover {
+  color: #10b041;
+  cursor: pointer;
+}
+.tabList .warper ul li:nth-child(1) {
+  border-bottom: 1px solid #10b041;
+}
+.tabWord {
+  background: white;
+  margin-left: 218px;
+  position: relative;
+}
+.tabWord .tabword {
+  border-left: 1px solid #cccc;
+  height: 9420px;
+  width: 640px;
+  position: relative;
+  display: block;
+}
+.tabWord .tabword .dingwei {
+  height: 26px;
+  width: 1px;
+  background: #f5f5f5;
+  position: absolute;
+}
+.tabWord .tabword .tripshow {
+  height: 180px;
+  width: 635px;
+  margin-top: 50px;
+  position: relative;
+  padding-left: 45px;
+  box-sizing: border-box;
+}
+.tabWord .tabword .tripshow .headimg {
+  width: 47px;
+  height: 47px;
+  border-radius: 47px;
+  position: absolute;
+  top: -24px;
+  left: -24px;
+}
+.tabWord .tabword .tripshow .headimg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 47px;
+}
+.tabWord .tabword .tripshow .tripboxleft span:nth-child(1):hover {
+  color: #10b041;
+  font-family: '微软雅黑';
+  cursor: pointer;
+}
+.tabWord .tabword .tripshow .tripboxleft span:nth-child(2) img {
+  width: 14px;
+}
+.tabWord .tabword .tripshow .tripboxleft span:nth-child(4):hover {
+  color: #10b041;
+  cursor: pointer;
+}
+.tabWord .tabword .tripshow .tripboxleft .publicspan {
+  color: #959595;
+}
+.tabWord .tabword .tripshow .tripboxleft input {
+  margin-left: 17px;
+  vertical-align: bottom;
+}
+.tabWord .tabword .tripshow .tripboxleft span:nth-child(9) {
+  margin-left: 40px;
+}
+.tabWord .tabword .tripshow .tripboxleft div {
+  margin: 34px  0;
+}
+.tabWord .tabword .tripshow .tripboxleft div p {
+  font-size: 17px;
+}
+.tabWord .tabword .tripshow .tripboxleft div p span {
+  padding: 3px 8px 2px 30px;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+  background: #ff8c7d;
+}
+.tabWord .tabword .tripshow .tripboxleft div > p:hover {
+  color: #10b041;
+  cursor: pointer;
+}
+.tabWord .tabword .tripshow .tripboxright {
+  margin-top: 60px;
+}
+.tabWord .tabtrip {
+  width: 640px;
+  height: 600px;
+  display: none;
+}
+.tabWord .tabtrip .toptitle {
+  margin-top: 22px;
+  font-size: 14px;
+  padding-left: 24px;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+}
+.tabWord .tabtrip .toptitle span {
+  margin: 0 10px;
+}
+.tabWord .tabtrip .toptitle a {
+  color: #10b041;
+  font-size: 14px;
+}
+.tabWord .tabtrip .toptitle a:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #10b041;
+}
+.tabWord .tabtrip .tabTrip {
+  width: 640px;
+  margin-left: 22px;
+  position: relative;
+  border-left: 1px solid #ccc;
+  margin-top: 40px;
+  padding-bottom: 30px;
+}
+.tabWord .tabtrip .tabTrip .headimg {
+  width: 47px;
+  height: 47px;
+  position: absolute;
+  top: -42px;
+  left: -25px;
+}
+.tabWord .tabtrip .tabTrip .headimg img {
+  width: 47px;
+  height: 47px;
+  border-radius: 47px;
+}
+.tabWord .tabtrip .tabTrip .tripboxleft span:nth-child(1) {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.tabWord .tabtrip .tabTrip .tripboxleft span:nth-child(1):hover {
+  color: #10b041;
+  cursor: pointer;
+}
+.tabWord .tabtrip .tabTrip .tripboxleft span:nth-child(3) {
+  margin-right: 30px;
+}
+.tabWord .tabtrip .tabTrip .tripboxleft span:nth-child(5) {
+  margin-right: 30px;
+}
+.tabWord .tabtrip .tabTrip .tripboxleft .publicspan {
+  color: #ccc;
+}
+.tabWord .tabtrip .tabTrip .tripboxleft .p1 {
+  margin: 30px 0 30px 30px;
+  font-size: 16px;
+}
+.tabWord .tabtrip .tabTrip .tripboxleft .p1:hover {
+  color: #10b041;
+  cursor: pointer;
+}
+.tabWord .tabtrip .tabTrip .tripboxleft .divtime {
+  width: 400px;
+  height: 60px;
+  border: 1px solid #ccc;
+  border-left: 0 none;
+  padding: 0 160px 0 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+.tabWord .tabtrip .tabTrip .tripboxleft .divtime div p {
+  margin: 7px 0;
+}
+.tabWord .tabtrip .tabTrip .tripboxleft .divtime .right {
+  line-height: 60px;
+}
+.tabWord .tabtrip .tabTrip .tripboxleft .divtime .line {
+  position: absolute;
+  width: 0px;
+  height: 40px;
+  border: 0.5px solid #ccc;
+  top: 7px;
+  left: 145px;
+}
+.tabWord .tabtrip .tabTrip .tripboxright {
+  margin-top: 45px;
+}
+.tabWord .tabteam {
+  width: 640px;
+  height: 600px;
+  display: none;
+  margin-top: 35px;
+}
+.tabWord .tabteam .tabTeamList .tabTeamListtitle {
+  font-size: 20px;
+  color: #636363;
+}
+.tabWord .tabteam .tabTeamList .tabTeamListtitle span {
+  color: #10b041;
+  margin-right: 10px;
+}
+.tabWord .tabteam .tabTeamList ul {
+  margin-top: 30px;
+}
+.tabWord .tabteam .tabTeamList ul li {
+  width: 210px;
+  height: 50px;
+  margin-bottom: 35px;
+}
+.tabWord .tabteam .tabTeamList ul li img {
+  width: 50px;
+  height: 50px;
+}
+.tabWord .tabteam .tabTeamList ul li div {
+  margin-left: 6px;
+}
+.tabWord .tabteam .tabTeamList ul li div span {
+  font-size: 14px;
+}
+.tabWord .tabteam .tabTeamList ul li div span:hover {
+  color: #10b041;
+  cursor: pointer;
+}
+.tabWord .tabteam .tabTeamList ul li div p {
+  color: #959595;
+  margin-top: 1px;
+}
+.jiazaixiang {
+  height: 40px;
+  width: 630px;
+  color: #ccc;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+.m-slide .slidebox {
+  width: 270px;
+  height: 1000px;
+  position: absolute;
+  top: 580px;
+  right: 205px;
+}
+.m-slide .slidebox .slidezhuce {
+  width: 270px;
+  height: 350px;
+}
+.m-slide .slidebox .slidezhuce .top {
+  height: 260px;
+  padding-top: 20px;
+  padding-left: 24px;
+  box-sizing: border-box;
+  background: url(../img/仝敬龙/regbg.png) no-repeat 50%;
+}
+.m-slide .slidebox .slidezhuce .top .div1 p {
+  color: #ffe4d7;
+  font-size: 18px;
+}
+.m-slide .slidebox .slidezhuce .top .div2 {
+  margin-top: 23px;
+  width: 105px;
+  height: 34px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  font-size: 17px;
+  text-align: center;
+  line-height: 34px;
+  color: white;
+}
+.m-slide .slidebox .slidezhuce .top .div2:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.m-slide .slidebox .slidezhuce .top .div3 {
+  margin-top: 35px;
+}
+.m-slide .slidebox .slidezhuce .top .div3 p {
+  color: white;
+  font-size: 11px;
+  margin-bottom: 15px;
+}
+.m-slide .slidebox .slidezhuce .top .div3 p a {
+  color: #10b041;
+}
+.m-slide .slidebox .slidezhuce .top .div3 span {
+  color: white;
+}
+.m-slide .slidebox .slidezhuce .bottom {
+  height: 90px;
+  padding-top: 20px;
+  padding-left: 24px;
+  box-sizing: border-box;
+}
+.m-slide .slidebox .slidezhuce .bottom img {
+  margin-right: 20px;
+  border-radius: 9px;
+}
+.m-slide .slidebox .slidezhuce .bottom p:nth-child(2) {
+  margin-bottom: 12px;
+  color: #959595;
+}
+.m-slide .slidebox .slidezhuce .bottom p:nth-child(3) span:hover {
+  color: #10b041;
+  cursor: pointer;
+}
+.m-slide .slidebox .slideimg {
+  margin-top: 35px;
+}
+.m-slide .slidebox .slideimg li {
+  font-size: 19px;
+  margin-bottom: 30px;
+}
+.m-slide .slidebox .slideimg li:hover {
+  cursor: pointer;
+}
+.m-slide .slidebox .slideword {
+  margin-top: 45px;
+}
+.m-slide .slidebox .slideword li {
+  margin-bottom: 14px;
+}
+.m-slide .slidebox .slideword li i {
+  color: #d7d7d7;
+  font-size: 10px;
+}
+.m-slide .slidebox .slideword li:hover {
+  cursor: pointer;
+  color: #10b041;
+}
+.m-slide .slidebox .slideword i:hover {
+  cursor: pointer;
+  color: #10b041;
+}
+footer {
+  height: 120px;
+  border-top: 2px solid #10b041;
+  width: 100%;
+  background: #323232;
+  margin-top: 30px;
+}
+footer .topword {
+  margin-top: 39px;
+}
+footer .topword p {
+  color: #b7c0c0;
+  font-size: 14px;
+  font-weight: 700;
+  border-left: 2px solid #10b041;
+  padding-left: 5px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+}
+.banner {
+  height: 70px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  bottom: 0;
+}
+.banner .img {
+  margin-left: 270px;
+}
+.banner .denglu {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.banner .denglu ul li {
+  color: white;
+  font-size: 16px;
+  height: 30px;
+  width: 100px;
+  margin-right: 10px;
+  line-height: 30px;
+}
+.banner .denglu ul li:nth-child(1) {
+  background: #da371f;
+  border-radius: 4px;
+}
+.banner .denglu ul li:nth-child(1) span {
+  margin-left: 6px;
+  margin-top: 9px;
+}
+.banner .denglu ul li:nth-child(2) {
+  background: #2b8fc8;
+  border-radius: 4px;
+}
+.banner .denglu ul li:nth-child(2) span {
+  margin-left: 8px;
+  margin-top: 9px;
+}
+.banner .denglu ul li:nth-child(3) {
+  width: 50px;
+  color: #b7b7b7;
+  font-size: 12px;
+  margin-right: 4px;
+}
+.banner .denglu ul li:nth-child(3) a {
+  color: #d7d7d7;
+  font-size: 14px;
+  border-bottom: 1px solid #d7d7d7;
+  margin-right: 3px;
+}
+.banner .denglu ul li:nth-child(3) a:hover {
+  color: #10b041;
+}
+.banner .denglu ul li:nth-child(4) {
+  background: #5fa678;
+  border-radius: 4px;
+}
+.banner .denglu ul li:nth-child(4) img {
+  width: 16px;
+  border-radius: 4px;
+  float: left;
+  margin-top: 7px;
+  margin-left: 7px;
+  margin-right: 3px;
+}
+.banner p {
+  font-size: 40px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #a6a6a6;
+}
+.banner p:hover {
+  cursor: pointer;
+  color: white;
+}
+.returnTop {
+  height: 165px;
+  width: 55px;
+  position: fixed;
+  right: 50px;
+  bottom: 120px;
+  display: none;
+}
+.returnTop ul li {
+  height: 55px;
+  border-bottom: 1px solid #ccc;
+}
+.returnTop ul .li1 {
+  text-align: center;
+  line-height: 25px;
+  color: #ccc;
+  font-family: '宋体';
+}
+.returnTop ul .li1 p {
+  color: #ccc;
+}
+.returnTop ul .li1 p:hover {
+  color: white;
+}
+.returnTop ul .li1:hover {
+  cursor: pointer;
+  background: #10b041;
+}
+.returnTop ul .li2 {
+  text-align: center;
+  line-height: 25px;
+  color: #ccc;
+  font-family: '宋体';
+  position: relative;
+}
+.returnTop ul .li2 p {
+  color: #ccc;
+}
+.returnTop ul .li2 p:hover {
+  color: white;
+}
+.returnTop ul .li2 .divh5 {
+  position: absolute;
+  left: -115px;
+  bottom: -55px;
+  display: none;
+}
+.returnTop ul .li2:hover {
+  cursor: pointer;
+  color: white;
+  background: #10b041;
+}
+.returnTop ul .li3 {
+  text-align: center;
+  line-height: 25px;
+  color: #ccc;
+  font-family: '宋体';
+  border: none;
+}
+.returnTop ul .li3 p {
+  color: #ccc;
+}
+.returnTop ul .li3 p:hover {
+  color: white;
+}
+.returnTop ul .li3:hover {
+  cursor: pointer;
+  background: #10b041;
+}
